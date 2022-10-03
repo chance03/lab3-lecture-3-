@@ -1,44 +1,44 @@
-# Lab4 : Lecture Note on Shell Commands
-***Note:*** This document is a note of fourth week lecture.
+# Lab5 : Lecture Note on Shell Commands
+***Note:*** This document is a note of fifth week lecture.
 
-### Linux / Kernel and Shell
+### I/O Redirection : Standard Output
 ---
 
-Linux is an Open-source Unix-like operating systems and kernels which was first released by Linus Torvalds in 1991.
+Standard ouput is screen.
 
-Kernal is a core of OS that controls and communicates with hardware resource
+Redirect output using ">" after a command to create and save the output in a file
 
-Shell is an interface that allows users to communicate with kernel
+Using ">>" appends output to an extising file or create and write to a new file if it doesn't exist.
+
+Command "cat" displays the content of a text file.
 
 ---
 
-### CLI
-CLI stands for Command Line Interface
-- Relatively fast
-- Scripts enable automation and records
-- Basic environment for developers
+### I/O Redirection : Standard Output
+---
 
-### GUI
-GUI stands for Graphical User Interface
-- Relatively slow
-- Manual labors required for repetitive tasks
-- For daily users
+Standard input is from keyboard
 
-### Shell commands
-- pwd : shows the current path in a hierarchical directory
-- cd : change directory
-- Is : list files and directories (more information is on Lecture note Slide 16)
-- Clear : clears everything that I have typed.
+You can redirecct input from a file using “<”.
 
-Using press "tab" key can make an autocompletion
+You can mix “<“ and “>” together in a single line.
 
-Using "up arrow" key can make past commands
+---
 
-### Manipulation
-- cp : copy files and directories (more information is on Lecture note Slide 22)
-- mv : move files and directories or rename them (more information is on Lecture note Slide 25)
-- rm : delete files and directories permantely and irreversevely
-- mkdir : make a new directory
+### Pipelines “|"
+Pipeline feeds output of previous command to input of next command such as command1 | command2 | command3 | …
 
-There are lots of wildcards such as * , g* , b*.txt , etc. (more information is on Lecture note Slide 27)
+
+### Expansion
+Special characters expand its meaning when given to shell commands.
+
+
+### Backslash
+Backslah can be used to ignore line change in command (“enter”), to enter a long command in multiple lines.
+
+
+### Permissions
+Linux is a multi-user system.
+
+Files and directories have a permission assigned differently to owner / group / others.
 
