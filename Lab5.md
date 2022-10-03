@@ -54,6 +54,20 @@ Value "644" means the owner may read and write a file, while all others may only
 
 Value "600" means the owner may read and write a file. All others have no rights.
 
-Change the permission of a file “word.txt” that only the owner (you) can read and write,
-but all the others (including others in the group) can only read it. No execution is needed
-for all users.
+Change the permission of a file “word.txt” that only the owner (you) can read and write, but all the others (including others in the group) can only read it. No execution is needed for all users.
+
+
+### Superuser
+A superuser has all system administation authority.
+
+Some commands need superuser's privilleges.
+
+Put "sudo" before the command if you are a superuser.
+
+You can type “exit” to get out of a superuser session.
+
+### Text Editiors
+In Linux, you can choose CLI-based or GUI-based text editors. (More information is on the lecture note slide 12.)
+
+### History
+You can type "history" to see previous command history. Or, save it to a next file.
